@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="91cb86c5-1ba6-4d0a-8dbf-7083d6681729" name="Benjamin.Brown@NAOU22858e 2019-07-29T17:51:23.217Z" runUser="Benjamin.Brown" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="7f0dbc87-7d4d-4410-8247-f8983366a6c6"/>
+  <Times creation="2019-07-29T17:51:23.217Z" queuing="2019-07-29T17:51:23.217Z" start="2019-07-29T17:51:23.217Z"/>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="hello / should work" id="bcbcc1db-7463-43fa-999f-f258c6fbdd25">
+      <Execution id="adfe8b6b-3613-45e3-a152-1807abfe104c"/>
+      <TestMethod codeBase="Jest_hello / should work" name="hello / should work" className="hello"/>
+    </UnitTest>
+    <UnitTest name="hello / should work 2" id="49388539-68c1-46f9-8d4a-780b5b7f1668">
+      <Execution id="3d0b86ac-bb76-418c-b5a0-e65ecb86d1c0"/>
+      <TestMethod codeBase="Jest_hello / should work 2" name="hello / should work 2" className="hello"/>
+    </UnitTest>
+    <UnitTest name="world / should work 1" id="bf426d7b-018c-4df5-b14f-df3dbcefad26">
+      <Execution id="030290c8-3735-4a51-8cf9-d517b11ddbaf"/>
+      <TestMethod codeBase="Jest_world / should work 1" name="world / should work 1" className="world"/>
+    </UnitTest>
+    <UnitTest name="world / should work 2" id="9909fa7d-db15-401a-9653-3f6808cb4c57">
+      <Execution id="c7619084-d8d8-4932-a507-b7c5f12c3f33"/>
+      <TestMethod codeBase="Jest_world / should work 2" name="world / should work 2" className="world"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bcbcc1db-7463-43fa-999f-f258c6fbdd25" executionId="adfe8b6b-3613-45e3-a152-1807abfe104c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="49388539-68c1-46f9-8d4a-780b5b7f1668" executionId="3d0b86ac-bb76-418c-b5a0-e65ecb86d1c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="bf426d7b-018c-4df5-b14f-df3dbcefad26" executionId="030290c8-3735-4a51-8cf9-d517b11ddbaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="9909fa7d-db15-401a-9653-3f6808cb4c57" executionId="c7619084-d8d8-4932-a507-b7c5f12c3f33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="bcbcc1db-7463-43fa-999f-f258c6fbdd25" executionId="adfe8b6b-3613-45e3-a152-1807abfe104c" testName="hello / should work" computerName="NAOU22858e" duration="00:00:01.328" startTime="2019-07-29T17:51:26.704Z" endTime="2019-07-29T17:51:28.032Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="49388539-68c1-46f9-8d4a-780b5b7f1668" executionId="3d0b86ac-bb76-418c-b5a0-e65ecb86d1c0" testName="hello / should work 2" computerName="NAOU22858e" duration="00:00:01.328" startTime="2019-07-29T17:51:28.032Z" endTime="2019-07-29T17:51:29.360Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <Output>
+      <StdOut>hello should work 1</StdOut>
+    </Output>
+    <Output>
+      <StdOut>hello should work 2</StdOut>
+    </Output>
+    <UnitTestResult testId="bf426d7b-018c-4df5-b14f-df3dbcefad26" executionId="030290c8-3735-4a51-8cf9-d517b11ddbaf" testName="world / should work 1" computerName="NAOU22858e" duration="00:00:01.328" startTime="2019-07-29T17:51:26.706Z" endTime="2019-07-29T17:51:28.034Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult testId="9909fa7d-db15-401a-9653-3f6808cb4c57" executionId="c7619084-d8d8-4932-a507-b7c5f12c3f33" testName="world / should work 2" computerName="NAOU22858e" duration="00:00:01.328" startTime="2019-07-29T17:51:28.034Z" endTime="2019-07-29T17:51:29.362Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <Output>
+      <StdOut>world should work 1</StdOut>
+    </Output>
+    <Output>
+      <StdOut>world should work 2</StdOut>
+    </Output>
+  </Results>
+</TestRun>

@@ -1,64 +1,6 @@
 {
-  "name": "jest-trx-results-processor",
-  "description": "Jest results processor for exporting into TRX files for Visual Studio",
-  "author": "Dan Homola",
-  "user": "no23reason",
-  "version": "0.0.0-semantic-release",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "repository": {
-    "url": "https://github.com/no23reason/jest-trx-results-processor",
-    "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/no23reason/jest-trx-results-processor/issues"
-  },
-  "keywords": [
-    "jest",
-    "jestjs",
-    "jest-cli",
-    "trx"
-  ],
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
-    "test": "jest --coverage",
-    "test:ci": "npm run test:tslint && npm test",
-    "test:tdd": "jest --watch",
-    "test:tslint": "tslint --project .",
-    "semantic-release": "semantic-release"
-  },
-  "dependencies": {
-    "uuid": "^3.2.1",
-    "xmlbuilder": "^13.0.2"
-  },
-  "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/uuid": "^3.4.3",
-    "@types/xml2js": "^0.4.2",
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "jest": "^24.8.0",
-    "semantic-release": "^15.13.12",
-    "ts-jest": "^24.0.2",
-    "tslint": "^5.9.1",
-    "typescript": "^3.5.2",
-    "xml2js": "^0.4.19"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$",
-    "testURL": "http://localhost/"
-  }
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

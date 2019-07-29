@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": ["es2015"]
+  },
+  "exclude": ["src/__tests__/**/*"],
+  "include": ["src/**/*"]
+}
